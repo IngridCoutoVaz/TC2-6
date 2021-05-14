@@ -1,0 +1,19 @@
+.header {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px 0;
+  margin-bottom: 42px;
+
+  &__title {
+    color: #000000;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    column-gap: 30px;
+  }
+}
